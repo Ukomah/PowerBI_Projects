@@ -13,7 +13,7 @@ This Power BI dashboard tracks the **Quantity Performance** of Plant Co. for the
 - **S_PYTD (Sales Previous Year-to-Date):** 
 - **S_YTD (Sales Year-to-Date):** 
 - **YTD_vs_PYTD:** 
-- **Gross Profit % (GP%):** ![alt text](image.png)
+- **Gross Profit % (GP%):**
 
 ## 📊 Dashboard Components
 ### **1. Performance Summary**
