@@ -3,7 +3,7 @@
 ![Dashboard Screenshot](images/dashboard.png)
 
 ## 📊 Project Overview
-This Power BI dashboard tracks the **Quantity Performance** of Plant Co. for the year 2023. It provides insights into:
+This Power BI dashboard tracks the **Quantity Performance** of Plant Co. for the year 2022, 2023 and 2024. It provides insights into:
 - Sales growth trends (YTD vs PYTD).
 - Country-wise performance breakdown.
 - Monthly fluctuations in sales.
