@@ -1,0 +1,28 @@
+// switches betweeen PYTD_Sales, PYTD_Quantity and PYTD_Gross_Profit
+S_PYTD = 
+VAR selected_value = SELECTEDVALUE(Slc_Values[Values])
+VAR result = SWITCH(selected_value,
+    "Sales", [PYTD_Sales],
+    "Quantity", [PYTD_Quantity],
+    "Gross Profit", [PYTD_Gross_Profit],
+    BLANK()
+)
+RETURN
+result
+
+
+// switches betweeen YTD_Sales, YTD_Quantity and YTD_Gross_Profit
+S_YTD = 
+VAR selected_value = SELECTEDVALUE(Slc_Values[Values])
+VAR result = SWITCH(selected_value,
+    "Sales", [YTD_Sales],
+    "Quantity", [YTD_Quantity],
+    "Gross Profit", [YTD_Gross_Profit],
+    BLANK()
+)
+RETURN
+result
+
+
+// difference
+YTD_vs_PYTD = [S_YTD] - [S_PYTD]

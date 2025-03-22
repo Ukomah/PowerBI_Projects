@@ -1,0 +1,11 @@
+// Report titile
+_Report_Title = "Plant Co. " & SELECTEDVALUE(Slc_values[Values]) & " Performance " & SELECTEDVALUE(Dim_Date[Date].[Year])
+
+// Scater plot titile
+_Scatter_Title = "Account Profitability Segmentation by GP% and " & SELECTEDVALUE(Slc_values[Values])
+
+// Tree map titile
+_Treemap_Title = (SELECTEDVALUE(Dim_Date[Date].[Year]) & " Bottom 10 YTD_VS_PYTD by Country")
+
+// Waterfall title
+_Waterfall_Title = (SELECTEDVALUE(Dim_Date[Date].[Year]) & " " & SELECTEDVALUE(Slc_values[Values]) & " YTD_vs_PYTD | Month - Country - Product")

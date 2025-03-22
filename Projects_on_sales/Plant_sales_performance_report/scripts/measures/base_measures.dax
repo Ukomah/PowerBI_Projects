@@ -1,0 +1,8 @@
+// Total Sales Measure
+Sales = Sum(Fact_Sales[Sales_USD])
+
+// Total Qunatity sold
+Quantity = SUM(Fact_Sales[quantity])
+
+// Total Gross Profit
+Gross_Profit = [Sales] - [COGs]

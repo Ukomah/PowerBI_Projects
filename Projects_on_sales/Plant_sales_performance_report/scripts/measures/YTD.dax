@@ -1,0 +1,8 @@
+// Year-To-Date sales
+YTD_Sales = TOTALYTD([Sales],Fact_Sales[Date_Time])
+
+// Year-To-Date qty
+YTD_Quantity = TOTALYTD([Quantity],Fact_Sales[Date_Time])
+
+// Year-To-Date gross profit
+YTD_Gross_Profit = TOTALYTD([Gross_Profit],Fact_Sales[Date_Time])

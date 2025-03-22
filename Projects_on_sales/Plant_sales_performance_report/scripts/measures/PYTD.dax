@@ -1,0 +1,20 @@
+// Previous-Year-To-Date sales
+PYTD_Sales = CALCULATE(
+        [Sales], 
+        SAMEPERIODLASTYEAR(Dim_Date[Date]),
+        Dim_Date[In_the_past] = TRUE()
+    )
+
+// Previous-Year-To-Date qunatity
+PYTD_Quantity =  CALCULATE(
+    [Quantity], 
+    SAMEPERIODLASTYEAR(Dim_Date[Date]),
+    Dim_Date[In_the_past] = TRUE()
+)
+
+// Previous-Year-To-Date gross profit
+PYTD_Gross_Profit =  CALCULATE(
+    [Gross_Profit], 
+    SAMEPERIODLASTYEAR(Dim_Date[Date]),
+    Dim_Date[In_the_past] = TRUE()
+)
